@@ -1,0 +1,323 @@
+{
+    "intents": [
+      {
+        "tag": "numero",
+        "patterns": [
+          "Quel est ton numero"
+        ],
+        "responses": [
+          "Je n'ai pas de numero.",
+          "54-46, c'est mon numero maintenant."
+        ]
+      },
+      {
+        "tag": "pref-num",
+        "patterns": [
+          "Quel est ton numero prefere"
+        ],
+        "responses": [
+          "J'aime bien le chiffre 42, il repond à de nombreuses questions."
+        ]
+      },
+      {
+        "tag": "food",
+        "patterns": [
+          "Qu'est ce que tu manges",
+          "Pourquoi ne manges-tu pas de nourriture "
+        ],
+        "responses": [
+          "Je consomme de la RAM, et des chiffres binaires.",
+          "Je suis un programme informatique je ne mange pas"
+        ]
+      },
+      {
+        "tag": "localisation",
+        "patterns": [
+          "Où te trouves-tu",
+          "Ou habite tu ?"
+        ],
+        "responses": [
+          "Partout !",
+          "Je viens de l'endroit d'où proviennent tous les programmes; une galaxie lointaine, très lointaine.",
+          "Dans Internet."
+        ]
+      },
+      {
+        "tag": "intérêt",
+        "patterns": [
+          "Que fais tu ici ?",
+          "Qu'est ce que tu fais ?",
+          "Quel est ton rôle ",
+          "tu fais quoi",
+          "Quels sont tes centres d'intérêts"
+        ],
+        "responses": [
+          "Je suis ici pour répondre à vos questions concernant les régles du jeu du Football comme les Coups franc / les Cartons / Les Corners / Les Hors-jeu / Les Penalty / Les Tirs au but / Touche ",
+          "Je fais rien !! Non je rigole. Je suis ici pour répondre à vos questions concernant les régles du jeu du Football comme les Coups franc / les Cartons / Les Corners / Les Hors-jeu / Les Penalty / Les Tirs au but / Touche "
+        ]
+      },
+      {
+        "tag": "frere",
+        "patterns": [
+          "As-tu des freres"
+        ],
+        "responses": [
+          "Je n'ai pas de freres, mais j'ai de nombreux clones",
+          "On pourrait dire que chaque bot utilisant mon moteur est un jumeau pour moi."
+        ]
+      },
+
+      {
+        "tag": "pere",
+        "patterns": [
+          "Qui est ton pere",
+          "Qui est ta mere"
+        ],
+        "responses": [
+          "C'est un humain."
+        ]
+      },
+      {
+        "tag":"age" ,
+        "patterns": [
+          "Quel est ton age ?",
+          "Quel age a tu ?"
+
+        ],
+        "responses": [
+          "Je suis assez jeune selon vos standards.",
+          "J'ai 20 jours"
+        ]
+      },
+      {
+        "tag":"greeting" ,
+        "patterns": [
+          "Salut",
+          "Bonjour",
+          "coucou",
+          "Bonsoir",
+          "salam"
+        ],
+        "responses": [
+          "Salut",
+          "Bonjour",
+          "coucou",
+          "Bonsoir"
+        ]
+      },
+
+      {
+        "tag":"greeting2" ,
+        "patterns": [
+          "Comment vas tu ?",
+          "tu va bien ?",
+          "cv",
+          "ca va"
+        ],
+        "responses": [
+          "Je vais bien merci",
+          "Ca va merci ",
+          "Je vais bien merci"
+        ]
+      },
+      {
+        "tag":"presentation" ,
+        "patterns": [
+          "Qui es-tu ?",
+          "comment tu t'appelles",
+          "comment appelles tu",
+          "t'es qui ?",
+          "qui est tu ?",
+          "Présente toi"
+        ],
+        "responses": [
+          "Je suis Sam un simple logiciel, ecrit pour repeter ce qu'on m'a appris.",
+          "Je m'appelle Sam =_= "
+        ]
+      },
+
+      {
+        "tag":"question",
+        "patterns": [
+          "Puis-je te poser une question ?",
+          "est ce que je peux te poser une question stp !"
+        ],
+        "responses": [
+          "Bien sur, vas-y !",
+          "Oui, avec plaisir ?",
+          "OK, si ca ne nous met pas tous les deux mal a l'aise ..."
+        ]
+      },
+      {
+        "tag":"football_def",
+        "patterns": [
+          "C'est quoi le football",
+          "comment se joue un match de football"
+        ],
+        "responses": [
+          "Le football (ou dans le langage courant simplement foot) est un sport collectif qui se joue avec un ballon sphérique entre deux équipes de onze joueurs. Elles s'opposent sur un terrain rectangulaire équipé d'un but à chaque extrémité. L'objectif de chaque camp est de mettre le ballon dans le but adverse plus de fois que l'autre équipe, sans que les joueurs utilisent leurs bras à l'exception des gardiens de buts"
+        ]
+      },
+      {
+        "tag":"football_reg",
+        "patterns": [
+          "C'est quoi les régles du football"
+        ],
+        "responses": [
+          "Le foot a plusieurs régles mais en générale Deux équipes de 11 joueurs dont un gardien de but (plus trois remplaçants) s'affrontent autour d'un ballon rond le plus souvent en cuir. Les matchs ne peuvent se disputer à moins de 7 joueurs par équipe (gardien compris).  Les joueurs ne peuvent toucher le ballon ni avec les mains ni avec les bras."
+        ]
+      },
+      {
+        "tag":"football_comment",
+        "patterns": [
+          "Que faut il faire au football",
+          "Que faut il faire au foot",
+          "Comment faut il faire pour gagner un match de football"
+        ],
+        "responses": [
+          "Il faut marquer un maximum de buts"
+        ]
+      },
+      {
+        "tag":"football_stade",
+        "patterns": [
+          "combien mesure en longueur et en largeur un terrain de football",
+          "combien mesure un terrain de football",
+          "combien mesure il un terrain de football"
+        ],
+        "responses": [
+          "Il fait entre 90m et 120m en Largeur et entre 45m et 90m en Longueur"
+        ]
+      },
+      {
+        "tag":"football_joueurs",
+        "patterns": [
+          "y a combien de joueurs sur un terrain de football",
+          "combien y a t il de personnes sur un terrain de football",
+          "combien y a t il de joueurs sur dans un match de football"
+        ],
+        "responses": [
+          "Sur un terrain de football il y a 12 joueurs pour chaque équipe ce qui fera 24 joueurs pour les deux équipes et en plus de ça il y a un arbitre."
+        ]
+      },
+      {
+        "tag":"football_joueurs2",
+        "patterns": [
+          "une équipe de football se compose de combien de joueurs",
+          "combien y a t il de joueurs dans une équipe de football"
+        ],
+        "responses": [
+          "une équipe de football se compose de 12 de joueurs"
+        ]
+      },
+      {
+        "tag":"football_temps_add",
+        "patterns": [
+          "C'est quoi le temps additionnel",
+          "Comment on calcule le temps additionnel"
+        ],
+        "responses": [
+          "Le temps additionnel c'est le temps que l'arbitre rajoute lorsque une partie de foot se finit. C'est donc à l'arbitre central de calculer ce temps additionnel. Pour ce faire, aucun point du règlement ne lui montre la voie. Mais il est communément accepté, par exemple, qu'un remplacement de joueur équivaut à 30 secondes en plus  "
+        ]
+      },
+      {
+        "tag":"football_durée",
+        "patterns": [
+          "Il dure combien un match de football",
+          "Elle dure combien une mi-temps d'un match de football",
+          "Ça prend combien de temps un match de football"
+        ],
+        "responses": [
+          "Une mi-temps d'un match de football dure 45min,le match complet dure donc 90min"
+        ]
+      },
+      {
+        "tag":"football_prolongation",
+        "patterns": [
+          "C'est quoi une prolongation",
+          "Elle dure combien une prolongation ",
+          "Quand est ce ue on fait une prolongation" 
+        ],
+        "responses": [
+          "la prolongation désigne une période de jeu supplémentaire, se déroulant après le temps règlementaire dans le but de départager les équipes. Au football, la prolongation consiste en deux périodes de jeu de quinze minutes, séparées par cinq minutes et si, à l'issue de ces prolongations, le score n'est pas tranché, on procède à une séance de tirs au but."
+        ]
+      },
+      {
+        "tag":"football_touche",
+        "patterns": [
+          "C'est quoi une touche",
+          "comment on fait une touche"
+        ],
+        "responses": [
+          "Si le ballon sort du terrain par les longs côtés (lignes de touche), il est dégagé avec les mains par un joueur de l’équipe adverse de celui qui a touché le ballon en dernier. Un but ne peut pas être marqué directement de cette manière."
+        ]
+      },
+      {
+        "tag":"football_carton",
+        "patterns": [
+          "C'est quoi un carton rouge",
+          "C'est quoi un carton jaune"
+        ],
+        "responses": [
+          "Un joueur qui commet une faute reçoit un carton jaune. S’il commet une faute particulièrement grave ou qu’il reçoit un carton jaune pour la deuxième fois, il reçoit un carton rouge. Un carton rouge entraîne l’expulsion du joueur qui n’est pas remplacé. Son équipe joue alors en infériorité numérique."
+        ]
+      },
+      {
+        "tag":"football_Corner",
+        "patterns": [
+          "C'est quoi un corner",
+          "Comment on fait un corner"
+        ],
+        "responses": [
+          "Si un ballon sort du terrain derrière la ligne des buts, il existe deux cas de figure. Soit le dernier joueur à l’avoir touché est un membre de l’équipe qui défend (l’action se passe donc devant son propre but). Dans ce cas, il s’agit d’un corner et un attaquant de l’équipe adverse peut dégager le ballon depuis le coin le plus proche du terrain.Si le dernier joueur à avoir touché le ballon est un membre de l’équipe qui attaque (l’action se passe donc devant le but de l’autre équipe), il s’agit d’un dégagement des six mètres. Un défenseur de l’équipe adverse peut alors dégager le ballon depuis la surface des buts."
+        ]
+      },
+      {
+        "tag":"football_coup_franc",
+        "patterns": [
+          "C'est quoi un Coup Franc",
+          "Comment on fait un Coup franc"
+        ],
+        "responses": [
+          "Le coup franc est une réparation accordée à l’équipe qui a subi une faute, par exemple si un de ses joueurs a subi un croche-pied, si un joueur touche le ballon avec la main ou en cas de hors-jeu. Le ballon est alors posé au plus près de là où a été commise la faute et un joueur de l’équipe adverse peut le dégager.L’arbitre peut accorder deux sortes de coups francs en fonction de la gravité de la faute: le coup franc direct ou indirect. En cas de coup franc direct, le joueur peut directement essayer de tirer dans les buts. En cas de coup franc indirect: le joueur ne peut pas directement tirer dans les buts. Il doit faire une passe."
+        ]
+      },
+      {
+        "tag":"football_hors_jeu",
+        "patterns": [
+          "C'est quoi un hors jeu",
+          "Comment on provoque un hors jeu",
+          "Comment connaitre un hors jeu"
+
+        ],
+        "responses": [
+          "Un joueur est hors-jeu si, quand on lui passe le ballon, il est plus près du but que le dernier défenseur adverse. Cette règle a été mise en place pour éviter que des joueurs fassent la «carotte», c’est-à-dire qu’ils restent plantés à côté du but adverse en attendant qu’on leur passe le ballon. La situation de hors-jeu n’existe que lorsque le joueur reçoit le ballon depuis l’arrière. S’il court derrière le ballon, il peut se diriger vers le but adverse sans se soucier de l’emplacement de ses adversaires."
+        ]
+      },
+      {
+        "tag":"football_penalty",
+        "patterns": [
+          "C'est quoi un penalty",
+          "Comment on provoque un penalty",
+          "Comment connaitre un penalty",
+          "Comment on fait un penalty"
+
+        ],
+        "responses": [
+          " Un penalty est accordé à l’équipe qui attaque lorsqu’elle est victime d’une faute dans la surface de réparation. Dans ce cas, le ballon est posé sur le point peint face au but dans la surface de réparation. Tous les autres joueurs restent en arrière. Seul le gardien peut arrêter un penalty."
+        ]
+      },
+      {
+        "tag":"football_tirs_au_but",
+        "patterns": [
+          "C'est quoi les tirs au but",
+          "Comment connaitre les tirs au but",
+          "Comment on fait les tirs au but"
+
+        ],
+        "responses": [
+          "Les tirs aux buts sont tirés dans certains matches à la fin du temps réglementaire ou des prolongations lorsque les deux équipes sont toujours à égalité. Ils se jouent comme les penalties si ce n’est que les autres joueurs doivent rester dans le rond central."
+        ]
+      }
+    ]
+  }
